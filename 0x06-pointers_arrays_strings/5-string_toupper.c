@@ -14,7 +14,7 @@ int count = 0;
 while (*(s + count) != '\0')
 {
 if ((*(s + count) >= 97) && (*(s + count) <= 122))
-*(+count) = *(s + count) - 32;
+*(s + count) = *(s + count) - 32;
 count++;
 }
 return (s);
