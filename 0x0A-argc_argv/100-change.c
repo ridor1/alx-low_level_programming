@@ -31,5 +31,5 @@ num = b;
 }
 printf("%d\n", result);
 }
-Exit(EXIT_SUCCESS);
+exit(EXIT_SUCCESS);
 }
