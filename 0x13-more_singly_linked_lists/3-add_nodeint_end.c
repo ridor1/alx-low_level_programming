@@ -25,7 +25,7 @@ if (*head == NULL)
 }
 else
 {
-hile (temp->next != NULL)
+hile (temp->next != NULL);
 {
 temp = temp->next;
 }
